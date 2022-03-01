@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainChapter.v4p" systemname="RainChapter" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\RainChapter.v4p" scrollx="0" scrolly="150">
+   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainChapter.v4p" systemname="RainChapter" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\RainChapter.v4p" scrollx="0" scrolly="1260">
    <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="..\..\..\..\..\..\..\..\vvvv\vvvv_beta_42_x64\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" componentmode="Hidden" id="0" hiddenwhenlocked="0">
    <BOUNDS type="Node" left="1725" top="12545" width="15315" height="270">
    </BOUNDS>
@@ -555,9 +555,9 @@
    <LINK srcnodeid="29" srcpinname="Y Output Value" dstnodeid="101" dstpinname="Input Value">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="103">
-   <BOUNDS type="Box" left="8220" top="555" width="795" height="480">
+   <BOUNDS type="Box" left="7725" top="555" width="795" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="8220" top="555" width="0" height="0">
+   <BOUNDS type="Node" left="7725" top="555" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="2" visible="1" values="-0.739348411560059,0.946488320827484">
    </PIN>
@@ -579,7 +579,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="6870" top="9510" width="8865" height="8880">
    </BOUNDS>
-   <BOUNDS type="Window" left="43785" top="1905" width="13050" height="16140">
+   <BOUNDS type="Window" left="36090" top="2115" width="13050" height="16140">
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -595,7 +595,7 @@
    </PIN>
    </NODE>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="129">
-   <BOUNDS type="Node" left="9660" top="1215" width="100" height="100">
+   <BOUNDS type="Node" left="9165" top="1215" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
@@ -603,7 +603,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="128">
-   <BOUNDS type="Node" left="8205" top="2430" width="100" height="100">
+   <BOUNDS type="Node" left="7710" top="2430" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -617,9 +617,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="127">
-   <BOUNDS type="Box" left="8730" top="1635" width="390" height="435">
+   <BOUNDS type="Box" left="8235" top="1635" width="390" height="435">
    </BOUNDS>
-   <BOUNDS type="Node" left="8730" top="1635" width="0" height="0">
+   <BOUNDS type="Node" left="8235" top="1635" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="2" visible="1" values="-1,-0.7">
    </PIN>
@@ -635,9 +635,9 @@
    <LINK srcnodeid="127" srcpinname="Y Output Value" dstnodeid="128" dstpinname="Destination Minimum">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="126">
-   <BOUNDS type="Box" left="9180" top="1785" width="330" height="480">
+   <BOUNDS type="Box" left="8685" top="1785" width="330" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="9180" top="1785" width="0" height="0">
+   <BOUNDS type="Node" left="8685" top="1785" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="2" visible="1" values="1,0.7">
    </PIN>
@@ -651,15 +651,15 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="126" srcpinname="Y Output Value" dstnodeid="128" dstpinname="Destination Maximum" linkstyle="VHV">
-   <LINKPOINT x="9180" y="2325">
+   <LINKPOINT x="8685" y="2325">
    </LINKPOINT>
-   <LINKPOINT x="8940" y="2325">
+   <LINKPOINT x="8445" y="2325">
    </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="125">
-   <BOUNDS type="Node" left="9225" top="2430" width="2310" height="270">
+   <BOUNDS type="Node" left="8730" top="2430" width="2310" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="9225" top="2430" width="1260" height="570">
+   <BOUNDS type="Box" left="8730" top="2430" width="1260" height="570">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; debug aspect ratio for spray|">
    </PIN>
@@ -2212,7 +2212,7 @@
    </LINK>
    <LINK srcnodeid="210" srcpinname="Texture Out" dstnodeid="254" dstpinname="Texture">
    </LINK>
-   <NODE systemname="RainExtraUI" filename="RainExtraUI.v4p" nodename="RainExtraUI.v4p" componentmode="InAWindow" id="372">
+   <NODE systemname="RainExtraUI" filename="RainExtraUI.v4p" nodename="RainExtraUI.v4p" componentmode="Hidden" id="372">
    <BOUNDS type="Node" left="15523" top="11106" width="4350" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="6278" top="2729" width="18490" height="16755">

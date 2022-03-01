@@ -130,7 +130,7 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="Age" dstnodeid="1" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="43785" top="1905" width="13050" height="16140">
+   <BOUNDS type="Window" left="36090" top="2115" width="13050" height="16140">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -652,8 +652,6 @@
    </LINK>
    <LINK srcnodeid="169" srcpinname="Output" dstnodeid="172" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="172" srcpinname="Output" dstnodeid="145" dstpinname="Input 3">
-   </LINK>
    <LINK srcnodeid="164" srcpinname="Y Output Value" dstnodeid="165" dstpinname="Spread Count">
    </LINK>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="173">
@@ -789,5 +787,7 @@
    <LINK srcnodeid="197" srcpinname="Output" dstnodeid="185" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="161" srcpinname="Color Output" dstnodeid="185" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="169" srcpinname="Output" dstnodeid="145" dstpinname="Input 3">
    </LINK>
    </PATCH>

@@ -691,7 +691,7 @@
    <NODE systemname="MultiFlipFlop (Animation)" nodename="MultiFlipFlop (Animation)" componentmode="Hidden" id="66">
    <BOUNDS type="Node" left="9495" top="2685" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Set Count" slicecount="1" values="4">
+   <PIN pinname="Set Count" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Set 0" visible="1">
    </PIN>
@@ -712,13 +712,7 @@
    <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="65" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 0" linkstyle="PolyLine">
-   </LINK>
    <LINK srcnodeid="67" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 3">
-   </LINK>
-   <LINK srcnodeid="69" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 1" linkstyle="PolyLine">
-   </LINK>
-   <LINK srcnodeid="68" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 2" linkstyle="PolyLine">
    </LINK>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="74">
    <BOUNDS type="Node" left="11415" top="6315" width="100" height="100">
@@ -895,7 +889,7 @@
    <NODE systemname="Switch (Value Input)" nodename="Switch (Value Input)" componentmode="Hidden" id="103">
    <BOUNDS type="Node" left="9480" top="6840" width="4755" height="270">
    </BOUNDS>
-   <PIN pinname="Input Count" slicecount="1" values="4">
+   <PIN pinname="Input Count" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -905,16 +899,14 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="66" srcpinname="Output" dstnodeid="103" dstpinname="Switch">
-   </LINK>
-   <LINK srcnodeid="74" srcpinname="Output" dstnodeid="103" dstpinname="Input 2">
    </LINK>
    <LINK srcnodeid="95" srcpinname="Y Output Value" dstnodeid="74" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="72" srcpinname="Y Output Value" dstnodeid="77" dstpinname="Y Input Value">
-   </LINK>
-   <LINK srcnodeid="78" srcpinname="Output" dstnodeid="103" dstpinname="Input 3">
    </LINK>
    <LINK srcnodeid="96" srcpinname="Y Output Value" dstnodeid="78" dstpinname="Input">
    </LINK>
@@ -1363,5 +1355,31 @@
    <LINK srcnodeid="45" srcpinname="Output" dstnodeid="182" dstpinname="Color">
    </LINK>
    <LINK srcnodeid="47" srcpinname="Output" dstnodeid="2" dstpinname="Color">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="184">
+   <BOUNDS type="Box" left="8685" top="6555" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8685" top="6555" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="66" srcpinname="Output" dstnodeid="184" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="69" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 0">
+   </LINK>
+   <LINK srcnodeid="68" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 1">
+   </LINK>
+   <LINK srcnodeid="67" srcpinname="Input Value" dstnodeid="66" dstpinname="Set 2">
+   </LINK>
+   <LINK srcnodeid="74" srcpinname="Output" dstnodeid="103" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="78" srcpinname="Output" dstnodeid="103" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="106" srcpinname="Output" dstnodeid="103" dstpinname="Input 3">
    </LINK>
    </PATCH>

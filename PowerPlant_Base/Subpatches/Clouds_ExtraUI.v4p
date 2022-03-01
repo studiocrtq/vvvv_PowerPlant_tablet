@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\Clouds_ExtraUI.v4p" systemname="Clouds_ExtraUI" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\Clouds_ExtraUI.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\Clouds_ExtraUI.v4p" systemname="Clouds_ExtraUI" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\Clouds_ExtraUI.v4p" scrollx="0" scrolly="-360">
    <NODE systemname="Quad (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Quad (DX11.Layer)" componentmode="Hidden" id="2">
    <BOUNDS type="Node" left="4245" top="12795" width="100" height="100">
    </BOUNDS>
@@ -19,9 +19,9 @@
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="ScaleY" slicecount="1" values="0.13" visible="1">
+   <PIN pinname="ScaleY" slicecount="1" visible="1" values="0.13">
    </PIN>
-   <PIN pinname="ScaleX" slicecount="1" values="0.03" visible="1">
+   <PIN pinname="ScaleX" slicecount="1" visible="1" values="0.03">
    </PIN>
    <PIN pinname="TranslateX" slicecount="1" visible="1" values="-0.843">
    </PIN>
@@ -1381,5 +1381,25 @@
    <LINK srcnodeid="78" srcpinname="Output" dstnodeid="103" dstpinname="Input 2">
    </LINK>
    <LINK srcnodeid="106" srcpinname="Output" dstnodeid="103" dstpinname="Input 3">
+   </LINK>
+   <NODE systemname="AsValue (String)" nodename="AsValue (String)" componentmode="Hidden" id="188">
+   <BOUNDS type="Node" left="13050" top="12300" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="31" srcpinname="Output" dstnodeid="188" dstpinname="Input">
+   </LINK>
+   <NODE systemname="S (Value)" nodename="S (Value)" componentmode="Hidden" id="189">
+   <BOUNDS type="Node" left="13050" top="12855" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" slicecount="1" values="ExtraTempClouds">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="188" srcpinname="Output" dstnodeid="189" dstpinname="Input Value">
    </LINK>
    </PATCH>

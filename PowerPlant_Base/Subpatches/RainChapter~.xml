@@ -98,7 +98,7 @@
    </LINK>
    <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Size">
    </LINK>
-   <BOUNDS type="Window" left="29790" top="3585" width="27585" height="14610">
+   <BOUNDS type="Window" left="28140" top="3090" width="27585" height="14610">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -2213,9 +2213,9 @@
    <LINK srcnodeid="210" srcpinname="Texture Out" dstnodeid="254" dstpinname="Texture">
    </LINK>
    <NODE systemname="RainExtraUI" filename="RainExtraUI.v4p" nodename="RainExtraUI.v4p" componentmode="InAWindow" id="372">
-   <BOUNDS type="Node" left="15808" top="11286" width="4350" height="270">
+   <BOUNDS type="Node" left="15523" top="11106" width="4350" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="6563" top="2909" width="18490" height="16755">
+   <BOUNDS type="Box" left="6278" top="2729" width="18490" height="16755">
    </BOUNDS>
    <BOUNDS type="Window" left="34710" top="2340" width="18480" height="16755">
    </BOUNDS>
@@ -2228,6 +2228,14 @@
    <PIN pinname="Input 2" visible="1" slicecount="1" values="1">
    </PIN>
    <PIN pinname="Input" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Language" visible="1">
+   </PIN>
+   <PIN pinname="IsChapter" visible="1">
+   </PIN>
+   <PIN pinname="IdleDisabled" visible="1">
+   </PIN>
+   <PIN pinname="RemoveCTA" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="372" srcpinname="Layer Out" dstnodeid="0" dstpinname="Layer 5">
@@ -2251,5 +2259,13 @@
    <LINK srcnodeid="84" srcpinname="Output" dstnodeid="372" dstpinname="Input 2">
    </LINK>
    <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="372" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="95" srcpinname="Input Value" dstnodeid="372" dstpinname="Language">
+   </LINK>
+   <LINK srcnodeid="68" srcpinname="Output" dstnodeid="372" dstpinname="IsChapter">
+   </LINK>
+   <LINK srcnodeid="84" srcpinname="Output" dstnodeid="372" dstpinname="IdleDisabled">
+   </LINK>
+   <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="372" dstpinname="RemoveCTA">
    </LINK>
    </PATCH>
