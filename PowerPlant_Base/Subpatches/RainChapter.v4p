@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainChapter.v4p" systemname="RainChapter" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\RainChapter.v4p" scrollx="0" scrolly="1260">
+   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainChapter.v4p" systemname="RainChapter" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\RainChapter.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="..\..\..\..\..\..\..\..\vvvv\vvvv_beta_42_x64\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" componentmode="Hidden" id="0" hiddenwhenlocked="0">
    <BOUNDS type="Node" left="1725" top="12545" width="15315" height="270">
    </BOUNDS>
@@ -98,7 +98,7 @@
    </LINK>
    <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Size">
    </LINK>
-   <BOUNDS type="Window" left="28140" top="3090" width="27585" height="14610">
+   <BOUNDS type="Window" left="29760" top="3555" width="27585" height="14610">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -1585,7 +1585,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="13095" top="1635" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="200">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="150">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>

@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\SendData_OSC.v4p" systemname="SendData_OSC" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\SendData_OSC.v4p" scrollx="93345" scrolly="0">
+   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\SendData_OSC.v4p" systemname="SendData_OSC" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\SendData_OSC.v4p" scrollx="107490" scrolly="0">
    <NODE systemname="OSCEncoder (Network)" nodename="OSCEncoder (Network)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2370" top="4270" width="100" height="100">
    </BOUNDS>
@@ -318,7 +318,7 @@
    </LINK>
    <LINK srcnodeid="18" srcpinname="Y Output Value" dstnodeid="17" dstpinname="Characters after Comma">
    </LINK>
-   <BOUNDS type="Window" left="30405" top="6915" width="36135" height="7065">
+   <BOUNDS type="Window" left="30405" top="6915" width="26730" height="7065">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -957,7 +957,7 @@
    <LINK srcnodeid="73" srcpinname="Output" dstnodeid="22" dstpinname="Y Input Value">
    </LINK>
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="74">
-   <BOUNDS type="Node" left="21930" top="435" width="100" height="100">
+   <BOUNDS type="Node" left="22170" top="420" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Receive String" slicecount="1" values="TouchInteraction_PosXY">
    </PIN>
@@ -1627,7 +1627,7 @@
    <LINK srcnodeid="131" srcpinname="Y Output Value" dstnodeid="132" dstpinname="Characters after Comma">
    </LINK>
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="140">
-   <BOUNDS type="Node" left="47670" top="420" width="100" height="100">
+   <BOUNDS type="Node" left="51135" top="420" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Receive String" slicecount="1" values="ItIsTouching">
    </PIN>
@@ -2179,7 +2179,7 @@
    </PIN>
    <PIN pinname="String Type" slicecount="1" values="IP">
    </PIN>
-   <PIN pinname="Input String" visible="1" slicecount="1" values="192.168.1.17">
+   <PIN pinname="Input String" visible="1" slicecount="1" values="192.168.1.37">
    </PIN>
    <PIN pinname="Output String" visible="1">
    </PIN>
@@ -2190,38 +2190,6 @@
    <BOUNDS type="Box" left="5475" top="6435" width="1005" height="270">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="showrunner">
-   </PIN>
-   <PIN pinname="Output String" visible="0">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="208">
-   <BOUNDS type="Box" left="3810" top="6810" width="1410" height="270">
-   </BOUNDS>
-   <BOUNDS type="Node" left="3810" top="6810" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="192.168.1.1">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="IP">
-   </PIN>
-   <PIN pinname="Input String" visible="1" slicecount="1" values="192.168.1.135">
-   </PIN>
-   <PIN pinname="Output String" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="209">
-   <BOUNDS type="Node" left="5325" top="6735" width="1410" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="5325" top="6735" width="1410" height="270">
-   </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|timeworkspace pc|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -2395,7 +2363,7 @@
    <LINK srcnodeid="233" srcpinname="Y Output Value" dstnodeid="148" dstpinname="Do Send">
    </LINK>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="234">
-   <BOUNDS type="Node" left="47685" top="915" width="100" height="100">
+   <BOUNDS type="Node" left="51150" top="915" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -5633,5 +5601,151 @@
    <LINK srcnodeid="437" srcpinname="Output String" dstnodeid="447" dstpinname="Input String">
    </LINK>
    <LINK srcnodeid="447" srcpinname="Output String" dstnodeid="457" dstpinname="Input String">
+   </LINK>
+   <NODE systemname="OSCEncoder (Network)" nodename="OSCEncoder (Network)" componentmode="Hidden" id="471">
+   <BOUNDS type="Node" left="127305" top="4105" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="OSCMessage" visible="1">
+   </PIN>
+   <PIN pinname="Arguments" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="470" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="127620" top="3610" width="330" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="127620" top="3610" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="f">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="469" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="127325" top="2545" width="2955" height="270">
+   </BOUNDS>
+   <BOUNDS type="Node" left="127325" top="2545" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="/vvvv/Language">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="UDP (Network Client)" nodename="UDP (Network Client)" componentmode="Hidden" id="468">
+   <BOUNDS type="Node" left="127305" top="5745" width="1485" height="270">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Do Send" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="467" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="128260" top="5035" width="1395" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="128260" top="5035" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="192.168.1.17">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="192.168.1.1">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="IP">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="466" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="128730" top="5365" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="128730" top="5365" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="55551">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   </NODE>
+   <NODE systemname="FormatValue (String)" nodename="FormatValue (String)" componentmode="Hidden" id="465">
+   <BOUNDS type="Node" left="128205" top="3580" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1" slicecount="1" values="2.9">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="464" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="128580" top="3235" width="285" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="128580" top="3235" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="469" srcpinname="Output String" dstnodeid="471" dstpinname="Address">
+   </LINK>
+   <LINK srcnodeid="470" srcpinname="Output String" dstnodeid="471" dstpinname="Type Tags">
+   </LINK>
+   <LINK srcnodeid="465" srcpinname="Output" dstnodeid="471" dstpinname="Arguments">
+   </LINK>
+   <LINK srcnodeid="471" srcpinname="OSCMessage" dstnodeid="468" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="467" srcpinname="Output String" dstnodeid="468" dstpinname="Remote Host">
+   </LINK>
+   <LINK srcnodeid="466" srcpinname="Y Output Value" dstnodeid="468" dstpinname="Remote Port">
+   </LINK>
+   <LINK srcnodeid="464" srcpinname="Y Output Value" dstnodeid="465" dstpinname="Characters after Comma">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="463">
+   <BOUNDS type="Box" left="127785" top="4830" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="127785" top="4830" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="463" srcpinname="Y Output Value" dstnodeid="468" dstpinname="Do Send">
+   </LINK>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="462">
+   <BOUNDS type="Node" left="128220" top="435" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Language">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="457" srcpinname="Output String" dstnodeid="467" dstpinname="Input String">
+   </LINK>
+   <LINK srcnodeid="462" srcpinname="Input Value" dstnodeid="465" dstpinname="Input">
    </LINK>
    </PATCH>

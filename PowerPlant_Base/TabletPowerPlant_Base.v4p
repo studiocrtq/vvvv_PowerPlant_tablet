@@ -309,7 +309,7 @@
    </BOUNDS>
    <PIN pinname="Layer Out" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="28140" top="3090" width="27585" height="14610">
+   <BOUNDS type="Window" left="29760" top="3555" width="27585" height="14610">
    </BOUNDS>
    <BOUNDS type="Box" left="4785" top="4560">
    </BOUNDS>
@@ -1037,7 +1037,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="5025" top="240" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="600">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="300">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1115,7 +1115,7 @@
    <LINK srcnodeid="453" srcpinname="Y Output Value" dstnodeid="184" dstpinname="ParticleCount">
    </LINK>
    <NODE systemname="PerfMeter (DX11.Debug)" filename="%VVVV%\packs\dx11\nodes\modules\PerfMeter (DX11.Debug).v4p" nodename="PerfMeter (DX11.Debug)" componentmode="Hidden" id="456">
-   <BOUNDS type="Node" left="300" top="6540" width="100" height="100">
+   <BOUNDS type="Node" left="555" top="6450" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -1125,17 +1125,15 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1560" top="6765" width="3000" height="3000">
    </BOUNDS>
-   <PIN pinname="Layer 1" visible="1">
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer Out" visible="1">
    </PIN>
-   <PIN pinname="Layer 2" visible="1">
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="350" srcpinname="Layer Out" dstnodeid="457" dstpinname="Layer 1">
-   </LINK>
    <LINK srcnodeid="457" srcpinname="Layer Out" dstnodeid="84" dstpinname="Layer In">
    </LINK>
-   <LINK srcnodeid="456" srcpinname="Layer" dstnodeid="457" dstpinname="Layer 2">
+   <LINK srcnodeid="350" srcpinname="Layer Out" dstnodeid="457" dstpinname="Layer 2">
    </LINK>
    </PATCH>

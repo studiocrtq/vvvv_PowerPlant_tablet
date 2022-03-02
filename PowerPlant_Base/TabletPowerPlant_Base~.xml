@@ -29,11 +29,11 @@
    </PIN>
    </NODE>
    <NODE systemname="Camera (Transform Softimage)" filename="%VVVV%\lib\nugets\VL.EditingFramework.2021.3.3\vvvv\nodes\modules\Camera (Transform Softimage).v4p" nodename="Camera (Transform Softimage)" componentmode="Hidden" id="27" hiddenwhenlocked="0">
-   <BOUNDS type="Node" left="2025" top="7870" width="100" height="100">
+   <BOUNDS type="Node" left="2175" top="7870" width="100" height="100">
    </BOUNDS>
    <PIN pinname="View Projection" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="2025" top="7865">
+   <BOUNDS type="Box" left="2175" top="7865">
    </BOUNDS>
    <PIN pinname="Initial Pitch" slicecount="1" values="0">
    </PIN>
@@ -51,9 +51,9 @@
    </PIN>
    </NODE>
    <NODE systemname="AspectRatio (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="AspectRatio (DX11.Layer)" componentmode="Hidden" id="84">
-   <BOUNDS type="Node" left="915" top="6835" width="100" height="100">
+   <BOUNDS type="Node" left="915" top="7285" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="915" top="6835" width="2000" height="2000">
+   <BOUNDS type="Box" left="915" top="7285" width="2000" height="2000">
    </BOUNDS>
    <PIN pinname="Layer In" visible="1" slicecount="1" values="||">
    </PIN>
@@ -309,7 +309,7 @@
    </BOUNDS>
    <PIN pinname="Layer Out" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="28140" top="3090" width="27585" height="14610">
+   <BOUNDS type="Window" left="29760" top="3555" width="27585" height="14610">
    </BOUNDS>
    <BOUNDS type="Box" left="4785" top="4560">
    </BOUNDS>
@@ -609,9 +609,9 @@
    </LINKPOINT>
    </LINK>
    <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Group (DX11.Layer)" componentmode="Hidden" id="350">
-   <BOUNDS type="Node" left="1580" top="6055" width="16965" height="270">
+   <BOUNDS type="Node" left="1730" top="6055" width="15945" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1580" top="6055" width="2000" height="2000">
+   <BOUNDS type="Box" left="1730" top="6055" width="2000" height="2000">
    </BOUNDS>
    <PIN pinname="Input Count" slicecount="1" values="12">
    </PIN>
@@ -659,39 +659,39 @@
    <LINK srcnodeid="227" srcpinname="Output String" dstnodeid="228" dstpinname="Address">
    </LINK>
    <LINK srcnodeid="184" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 2" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="2505" y="5403">
+   <LINKPOINT x="2555" y="5403">
    </LINKPOINT>
-   <LINKPOINT x="3960" y="5218">
+   <LINKPOINT x="4060" y="5218">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="345" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 1" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="625" y="5845">
+   <LINKPOINT x="675" y="5845">
    </LINKPOINT>
-   <LINKPOINT x="2840" y="5660">
+   <LINKPOINT x="2940" y="5660">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="215" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 3" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="4375" y="5915">
+   <LINKPOINT x="4425" y="5915">
    </LINKPOINT>
-   <LINKPOINT x="5435" y="5695">
+   <LINKPOINT x="5535" y="5695">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="263" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 4" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="4870" y="5673">
+   <LINKPOINT x="4920" y="5673">
    </LINKPOINT>
-   <LINKPOINT x="6755" y="5203">
+   <LINKPOINT x="6855" y="5203">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="282" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 5" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="8630" y="5548">
+   <LINKPOINT x="8680" y="5548">
    </LINKPOINT>
-   <LINKPOINT x="8125" y="5313">
+   <LINKPOINT x="8225" y="5313">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="298" srcpinname="Layer Out" dstnodeid="350" dstpinname="Layer 6" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="13630" y="5645">
+   <LINKPOINT x="13680" y="5645">
    </LINKPOINT>
-   <LINKPOINT x="9320" y="5185">
+   <LINKPOINT x="9420" y="5185">
    </LINKPOINT>
    </LINK>
    <NODE systemname="TouchInteraction_Game" filename="Subpatches\TouchInteraction_Game.v4p" nodename="Subpatches\TouchInteraction_Game.v4p" componentmode="Hidden" id="378">
@@ -725,9 +725,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="382" srcpinname="Layer" dstnodeid="350" dstpinname="Layer 7" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="12720" y="4088">
+   <LINKPOINT x="12770" y="4088">
    </LINKPOINT>
-   <LINKPOINT x="10710" y="3938">
+   <LINKPOINT x="10810" y="3938">
    </LINKPOINT>
    </LINK>
    <NODE systemname="Touch_CTA" filename="Subpatches\Touch_CTA.v4p" nodename="Subpatches\Touch_CTA.v4p" componentmode="Hidden" id="383">
@@ -749,9 +749,9 @@
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="383" srcpinname="Layer" dstnodeid="350" dstpinname="Layer 8" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="13450" y="5958">
+   <LINKPOINT x="13500" y="5958">
    </LINKPOINT>
-   <LINKPOINT x="12050" y="5713">
+   <LINKPOINT x="12150" y="5713">
    </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="401" hiddenwhenlocked="1">
@@ -1037,7 +1037,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="5025" top="240" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="600">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="300">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1079,9 +1079,9 @@
    <LINK srcnodeid="27" srcpinname="Projection" dstnodeid="448" dstpinname="Projection">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="451">
-   <BOUNDS type="Box" left="1560" top="7275" width="480" height="480">
+   <BOUNDS type="Box" left="1560" top="7725" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="1560" top="7275" width="0" height="0">
+   <BOUNDS type="Node" left="1560" top="7725" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -1114,14 +1114,28 @@
    </NODE>
    <LINK srcnodeid="453" srcpinname="Y Output Value" dstnodeid="184" dstpinname="ParticleCount">
    </LINK>
-   <LINK srcnodeid="350" srcpinname="Layer Out" dstnodeid="84" dstpinname="Layer In">
-   </LINK>
    <NODE systemname="PerfMeter (DX11.Debug)" filename="%VVVV%\packs\dx11\nodes\modules\PerfMeter (DX11.Debug).v4p" nodename="PerfMeter (DX11.Debug)" componentmode="Hidden" id="456">
-   <BOUNDS type="Node" left="16305" top="5205" width="100" height="100">
+   <BOUNDS type="Node" left="555" top="6450" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="456" srcpinname="Layer" dstnodeid="350" dstpinname="Layer 11">
+   <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Group (DX11.Layer)" componentmode="Hidden" id="457">
+   <BOUNDS type="Node" left="1560" top="6765" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1560" top="6765" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1">
+   </PIN>
+   <PIN pinname="Layer Out" visible="1">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="457" srcpinname="Layer Out" dstnodeid="84" dstpinname="Layer In">
+   </LINK>
+   <LINK srcnodeid="350" srcpinname="Layer Out" dstnodeid="457" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="456" srcpinname="Layer" dstnodeid="457" dstpinname="Layer 1">
    </LINK>
    </PATCH>

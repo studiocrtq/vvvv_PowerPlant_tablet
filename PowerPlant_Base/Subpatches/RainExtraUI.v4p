@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainExtraUI.v4p" systemname="RainExtraUI" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainExtraUI.v4p" scrollx="3435" scrolly="8760">
+   <PATCH nodename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainExtraUI.v4p" systemname="RainExtraUI" filename="C:\Users\ciao\Dropbox\crtq_windows\Futur21\futur21\vvvvFutur21\PowerPlant_Base\Subpatches\RainExtraUI.v4p" scrollx="6495" scrolly="10740">
    <NODE systemname="Segment (DX11.Geometry)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Segment (DX11.Geometry)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="5070" top="22275" width="100" height="100">
    </BOUNDS>
@@ -235,11 +235,11 @@
    </PIN>
    </NODE>
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="21">
-   <BOUNDS type="Node" left="19875" top="21810" width="100" height="100">
+   <BOUNDS type="Node" left="19875" top="21960" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="TranslateY" slicecount="1" values="0.35">
+   <PIN pinname="TranslateY" slicecount="1" values="0.32">
    </PIN>
    <PIN pinname="TranslateX" slicecount="1" visible="1" values="-0.84">
    </PIN>
@@ -327,9 +327,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="30" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="20205" top="21570" width="795" height="240">
+   <BOUNDS type="Box" left="20205" top="22365" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="20205" top="21570" width="0" height="0">
+   <BOUNDS type="Node" left="20205" top="22365" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="50">
    </PIN>
@@ -1387,7 +1387,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="15060" top="20925" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.66">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.65">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1401,7 +1401,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="15255" top="13390" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="|Arid Areas|">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Aridification">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="DX11">
    </PIN>
@@ -1471,7 +1471,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="18090" top="14365" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="|Humid Areas|">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|Extreme &cr;&lf;Precipitation|">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="DX11">
    </PIN>
@@ -1591,7 +1591,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="18045" top="20220" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.39">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.37">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1645,7 +1645,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="6165" top="21465" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.07">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.06">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1723,7 +1723,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="9465" top="20940" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.28">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.26">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -2627,7 +2627,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="10980" top="17625" width="795" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.06">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.05">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>

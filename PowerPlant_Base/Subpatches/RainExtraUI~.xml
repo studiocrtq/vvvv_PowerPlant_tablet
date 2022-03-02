@@ -1743,7 +1743,7 @@
    </PIN>
    <PIN pinname="Inner Radius" slicecount="1" visible="1" values="0.97">
    </PIN>
-   <PIN pinname="Resolution" slicecount="1" values="35" visible="1">
+   <PIN pinname="Resolution" slicecount="1" visible="1" values="35">
    </PIN>
    <PIN pinname="Phase" slicecount="1" visible="1" values="0.13">
    </PIN>
@@ -1771,7 +1771,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="8550" top="21930" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.15">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -2579,7 +2579,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="10785" top="17130" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.01">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
